@@ -1,0 +1,158 @@
+{
+  "uid" : "41eb081a9451df87",
+  "name" : "test_tag_deselected",
+  "fullName" : "tests.tagging_ui.tagging_tickets.test_deselect_tag#test_tag_deselected",
+  "historyId" : "946692d3460c26522c9f0644b1ef4d97",
+  "time" : {
+    "start" : 1648639955504,
+    "stop" : 1648639955517,
+    "duration" : 13
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "ticket = <tests.tagging_ui.tagging_tickets.tagging_window.Ticket object at 0x1057c7970>\n\n    def test_tag_deselected(ticket):\n        active_ticket = TaggingWindowPage.TaggingWindowTickets[0]\n>       assert active_ticket.TagsTable.Rows[1].is_selected\n\ntests/tagging_ui/tagging_tickets/test_deselect_tag.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <qa.tools.browser.Elements object at 0x104b7a7c0>, item = 1\n\n    def __getitem__(self, item):\n>       return self.located[item]  # Return Field to provide attribute access\nE       IndexError: list index out of range\n\nqa/tools/browser.py:289: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1648639936841,
+      "stop" : 1648639936852,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "close_browser",
+    "time" : {
+      "start" : 1648639936884,
+      "stop" : 1648639936884,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_mocks",
+    "time" : {
+      "start" : 1648639955262,
+      "stop" : 1648639955262,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "check_app_is_available",
+    "time" : {
+      "start" : 1648639936852,
+      "stop" : 1648639936884,
+      "duration" : 32
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ticket",
+    "time" : {
+      "start" : 1648639955262,
+      "stop" : 1648639955504,
+      "duration" : 242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close_browser::0",
+    "time" : {
+      "start" : 1648639980851,
+      "stop" : 1648639980931,
+      "duration" : 80
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_mocks::0",
+    "time" : {
+      "start" : 1648639955723,
+      "stop" : 1648639955739,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.tagging_ui.tagging_tickets"
+  }, {
+    "name" : "suite",
+    "value" : "test_deselect_tag"
+  }, {
+    "name" : "host",
+    "value" : "Elenas-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "48123-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.tagging_ui.tagging_tickets.test_deselect_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41eb081a9451df87.json",
+  "parameterValues" : [ ]
+}

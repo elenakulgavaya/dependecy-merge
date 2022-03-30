@@ -1,0 +1,174 @@
+{
+  "uid" : "d347a8a56875858a",
+  "name" : "test_ticket_subject[second]",
+  "fullName" : "tests.tagging_ui.tagging_tickets.test_tickets_view#test_ticket_subject",
+  "historyId" : "fb1458c02dbc6c9cf5cc6607a7261873",
+  "time" : {
+    "start" : 1648640057351,
+    "stop" : 1648640057369,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "close_browser",
+    "time" : {
+      "start" : 1648640034908,
+      "stop" : 1648640034908,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1648640034889,
+      "stop" : 1648640034900,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ticket",
+    "time" : {
+      "start" : 1648640057346,
+      "stop" : 1648640057350,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tickets",
+    "time" : {
+      "start" : 1648640057041,
+      "stop" : 1648640057278,
+      "duration" : 237
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "check_app_is_available",
+    "time" : {
+      "start" : 1648640034900,
+      "stop" : 1648640034908,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_mocks",
+    "time" : {
+      "start" : 1648640057041,
+      "stop" : 1648640057041,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close_browser::0",
+    "time" : {
+      "start" : 1648640077271,
+      "stop" : 1648640077347,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_mocks::0",
+    "time" : {
+      "start" : 1648640057762,
+      "stop" : 1648640057794,
+      "duration" : 32
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.tagging_ui.tagging_tickets"
+  }, {
+    "name" : "suite",
+    "value" : "test_tickets_view"
+  }, {
+    "name" : "host",
+    "value" : "Elenas-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "49775-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.tagging_ui.tagging_tickets.test_tickets_view"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "ticket",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d347a8a56875858a.json",
+  "parameterValues" : [ "1" ]
+}

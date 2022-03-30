@@ -1,3 +1,16 @@
 [ {
-  "data" : { }
+  "buildOrder" : 2,
+  "reportUrl" : "https://elenakulgavaya.github.io/dependecy-merge/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 39789
+  }
+}, {
+  "data" : {
+    "duration" : 39869
+  }
+}, {
+  "data" : {
+    "duration" : 41124
+  }
 } ]

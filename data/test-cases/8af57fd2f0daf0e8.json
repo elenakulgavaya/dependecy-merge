@@ -1,0 +1,171 @@
+{
+  "uid" : "8af57fd2f0daf0e8",
+  "name" : "test_change_category",
+  "fullName" : "tests.tagging_ui.test_ticket_source_selects#test_change_category",
+  "historyId" : "693e5e53b811b1574478917f2a3dbe02",
+  "time" : {
+    "start" : 1648639953796,
+    "stop" : 1648639953946,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1648639936841,
+      "stop" : 1648639936852,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "close_browser",
+    "time" : {
+      "start" : 1648639936884,
+      "stop" : 1648639936884,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ticket_source",
+    "time" : {
+      "start" : 1648639953588,
+      "stop" : 1648639953795,
+      "duration" : 207
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_mocks",
+    "time" : {
+      "start" : 1648639953588,
+      "stop" : 1648639953588,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "check_app_is_available",
+    "time" : {
+      "start" : 1648639936852,
+      "stop" : 1648639936884,
+      "duration" : 32
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close_browser::0",
+    "time" : {
+      "start" : 1648639980851,
+      "stop" : 1648639980931,
+      "duration" : 80
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ticket_source::0",
+    "time" : {
+      "start" : 1648639953946,
+      "stop" : 1648639953946,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_mocks::0",
+    "time" : {
+      "start" : 1648639954969,
+      "stop" : 1648639954984,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.tagging_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_ticket_source_selects"
+  }, {
+    "name" : "host",
+    "value" : "Elenas-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "48123-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.tagging_ui.test_ticket_source_selects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8af57fd2f0daf0e8.json",
+  "parameterValues" : [ ]
+}

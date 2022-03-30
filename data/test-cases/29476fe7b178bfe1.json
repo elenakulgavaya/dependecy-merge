@@ -1,0 +1,219 @@
+{
+  "uid" : "29476fe7b178bfe1",
+  "name" : "test_ticket_issue_confidence[second]",
+  "fullName" : "tests.tagging_ui.tagging_tickets.test_tickets_view#test_ticket_issue_confidence",
+  "historyId" : "e3df7769c273c3e301cf23e39fa3525b",
+  "time" : {
+    "start" : 1648640157169,
+    "stop" : 1648640157308,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "tickets",
+    "time" : {
+      "start" : 1648640156494,
+      "stop" : 1648640156760,
+      "duration" : 266
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "close_browser",
+    "time" : {
+      "start" : 1648640134400,
+      "stop" : 1648640134400,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ticket",
+    "time" : {
+      "start" : 1648640157163,
+      "stop" : 1648640157168,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1648640134381,
+      "stop" : 1648640134392,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "check_app_is_available",
+    "time" : {
+      "start" : 1648640134392,
+      "stop" : 1648640134400,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_mocks",
+    "time" : {
+      "start" : 1648640156494,
+      "stop" : 1648640156494,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close_browser::0",
+    "time" : {
+      "start" : 1648640176846,
+      "stop" : 1648640176924,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_mocks::0",
+    "time" : {
+      "start" : 1648640157309,
+      "stop" : 1648640157339,
+      "duration" : 30
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.tagging_ui.tagging_tickets"
+  }, {
+    "name" : "suite",
+    "value" : "test_tickets_view"
+  }, {
+    "name" : "host",
+    "value" : "Elenas-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "51498-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.tagging_ui.tagging_tickets.test_tickets_view"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "ticket",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d73fff5f44922c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648640057664,
+        "stop" : 1648640057761,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "b008a6b2b25ec34d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648639960573,
+        "stop" : 1648639960708,
+        "duration" : 135
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c5894eda69882053",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648640057664,
+          "stop" : 1648640057761,
+          "duration" : 97
+        }
+      }, {
+        "uid" : "9e89f2933ab73426",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648639960573,
+          "stop" : 1648639960708,
+          "duration" : 135
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "29476fe7b178bfe1.json",
+  "parameterValues" : [ "1" ]
+}
