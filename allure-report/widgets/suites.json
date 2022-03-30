@@ -1,6 +1,17 @@
 {
-  "total" : 3,
+  "total" : 4,
   "items" : [ {
+    "uid" : "5996ea5f24f38fd933907be0cfd07423",
+    "name" : "tests.enduser",
+    "statistic" : {
+      "failed" : 21,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 23
+    }
+  }, {
     "uid" : "d3720700722497cc988d38924aa9340f",
     "name" : "tests.tagging_ui",
     "statistic" : {

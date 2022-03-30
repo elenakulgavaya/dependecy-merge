@@ -1,0 +1,205 @@
+{
+  "uid" : "be88c93c4856a8b6",
+  "name" : "test_archive_active_record_request",
+  "fullName" : "tests.tagging_ui.test_tagging_window_models#test_archive_active_record_request",
+  "historyId" : "a95a5c5d1699f5ee618c3317707f1071",
+  "time" : {
+    "start" : 1648640144229,
+    "stop" : 1648640144373,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1648640134381,
+      "stop" : 1648640134392,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "check_app_is_available",
+    "time" : {
+      "start" : 1648640134392,
+      "stop" : 1648640134400,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "close_browser",
+    "time" : {
+      "start" : 1648640134400,
+      "stop" : 1648640134400,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "reset_mocks",
+    "time" : {
+      "start" : 1648640140658,
+      "stop" : 1648640140658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "tagging_windows",
+    "time" : {
+      "start" : 1648640140658,
+      "stop" : 1648640141930,
+      "duration" : 1272
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "reset_mocks::0",
+    "time" : {
+      "start" : 1648640144480,
+      "stop" : 1648640144493,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "close_browser::0",
+    "time" : {
+      "start" : 1648640176846,
+      "stop" : 1648640176924,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.tagging_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_tagging_window_models"
+  }, {
+    "name" : "host",
+    "value" : "Elenas-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "51498-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.tagging_ui.test_tagging_window_models"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d1a34516ed164e4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648640044947,
+        "stop" : 1648640045100,
+        "duration" : 153
+      }
+    }, {
+      "uid" : "3abf37614153134c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648639947334,
+        "stop" : 1648639947511,
+        "duration" : 177
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3bef37af615facc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648640044947,
+          "stop" : 1648640045100,
+          "duration" : 153
+        }
+      }, {
+        "uid" : "430130b4fe085b01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648639947334,
+          "stop" : 1648639947511,
+          "duration" : 177
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "be88c93c4856a8b6.json",
+  "parameterValues" : [ ]
+}
