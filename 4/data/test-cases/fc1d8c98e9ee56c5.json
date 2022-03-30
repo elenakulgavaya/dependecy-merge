@@ -1,0 +1,210 @@
+{
+  "uid" : "fc1d8c98e9ee56c5",
+  "name" : "test_update_tags_deselect_request",
+  "fullName" : "tests.tagging_ui.tagging_tickets.test_deselect_tag#test_update_tags_deselect_request",
+  "historyId" : "8b45584f8646345a417ca29b8e4fb6f4",
+  "time" : {
+    "start" : 1648640152232,
+    "stop" : 1648640152243,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ticket",
+    "time" : {
+      "start" : 1648640151944,
+      "stop" : 1648640152192,
+      "duration" : 248
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "close_browser",
+    "time" : {
+      "start" : 1648640134400,
+      "stop" : 1648640134400,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1648640134381,
+      "stop" : 1648640134392,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "check_app_is_available",
+    "time" : {
+      "start" : 1648640134392,
+      "stop" : 1648640134400,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_mocks",
+    "time" : {
+      "start" : 1648640151944,
+      "stop" : 1648640151944,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close_browser::0",
+    "time" : {
+      "start" : 1648640176846,
+      "stop" : 1648640176924,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_mocks::0",
+    "time" : {
+      "start" : 1648640152244,
+      "stop" : 1648640152261,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.tagging_ui.tagging_tickets"
+  }, {
+    "name" : "suite",
+    "value" : "test_deselect_tag"
+  }, {
+    "name" : "host",
+    "value" : "Elenas-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "51498-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.tagging_ui.tagging_tickets.test_deselect_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "184420766ad15081",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648640052870,
+        "stop" : 1648640052881,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "8236cc9624c6a31c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648639955702,
+        "stop" : 1648639955723,
+        "duration" : 21
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "5a941ab49a605b1a",
+        "reportUrl" : "https://elenakulgavaya.github.io/dependecy-merge/3//#testresult/5a941ab49a605b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648640152232,
+          "stop" : 1648640152243,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "579b8e7ff1498a72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648640052870,
+          "stop" : 1648640052881,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "88cb6d4e5442a109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648639955702,
+          "stop" : 1648639955723,
+          "duration" : 21
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fc1d8c98e9ee56c5.json",
+  "parameterValues" : [ ]
+}

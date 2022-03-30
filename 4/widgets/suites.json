@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "d3720700722497cc988d38924aa9340f",
+    "name" : "tests.tagging_ui",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 30,
+      "unknown" : 0,
+      "total" : 30
+    }
+  }, {
+    "uid" : "3e4cd6293be5f52e7c0d8c733dcb6387",
+    "name" : "tests.tagging_ui.tagging_tickets",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 29,
+      "unknown" : 0,
+      "total" : 29
+    }
+  }, {
+    "uid" : "5996ea5f24f38fd933907be0cfd07423",
+    "name" : "tests.enduser",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 23
+    }
+  }, {
+    "uid" : "bce41bce214d2f2e9d6e51b96c9a026c",
+    "name" : "tests.tagging_ui.tagging_window_controls",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 22,
+      "unknown" : 0,
+      "total" : 22
+    }
+  } ]
+}

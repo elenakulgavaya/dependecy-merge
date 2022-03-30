@@ -1,0 +1,113 @@
+{
+  "uid" : "7e8894058717b73e",
+  "name" : "test_internal_available_simulator_models_req",
+  "fullName" : "tests.enduser.test_get_available_simulator_models#test_internal_available_simulator_models_req",
+  "historyId" : "e1559a14526208d80c94f40c153b16a6",
+  "time" : {
+    "start" : 1648640658006,
+    "stop" : 1648640658460,
+    "duration" : 454
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "idiomatic_admin_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImVuZHVzZXIuYXV0aC5sb2dpblRpbWUiOiIxNjQ4NjM0NDU4IiwiZW5kdXNlci5hdXRo...ZXIuYXV0aC5lbmRVc2VySWQiOiI3NDU1In0sImlhdCI6MTY0ODYzNCwibmJmIjoxNjQ4NjM0fQ.o_iIXioMKzo6kEpF62I3zc8t_f3DrICqP0g1N3nX_sQ'\n\n    def test_internal_available_simulator_models_req(idiomatic_admin_token):\n        internal_api.AvailableSimulatorModels.reply()\n>       GetAvailableSimulatorModels(\n            session_token=idiomatic_admin_token\n        ).request().verify_response()\n\ntests/enduser/test_get_available_simulator_models.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <qa.api.enduser.calls.GetAvailableSimulatorModels object at 0x10424dbb0>, error_code = None\nresp_body = None, ignore_order = False, exclude_paths = None, normalize = False\n\n    def verify_response(self, error_code=None, resp_body=None,\n                        ignore_order=False, exclude_paths=None,\n                        normalize=False):\n        if error_code:\n            assert self.response.status_code == error_code, (\n                f'Unexpected code: {self.response.status_code}'\n            )\n        else:\n>           assert self.response.status_code == 200\nE           AssertionError\n\nqa/tools/caller.py:87: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "idiomatic_admin_token",
+    "time" : {
+      "start" : 1648640657524,
+      "stop" : 1648640657552,
+      "duration" : 28
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "truncate_db",
+    "time" : {
+      "start" : 1648640657282,
+      "stop" : 1648640657524,
+      "duration" : 242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1648640640472,
+      "stop" : 1648640640485,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "check_app_is_available",
+    "time" : {
+      "start" : 1648640640485,
+      "stop" : 1648640654349,
+      "duration" : 13864
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.enduser"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_available_simulator_models"
+  }, {
+    "name" : "host",
+    "value" : "Elenas-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "59719-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.enduser.test_get_available_simulator_models"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e8894058717b73e.json",
+  "parameterValues" : [ ]
+}
