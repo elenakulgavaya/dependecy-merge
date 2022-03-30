@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://elenakulgavaya.github.io/dependecy-merge",
+  "buildOrder" : 3,
+  "buildName" : "GitHub Actions Run #2064494969",
+  "buildUrl" : "https://github.com/elenakulgavaya/dependecy-merge/actions/runs/2064494969",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://elenakulgavaya.github.io/dependecy-merge/3/"
+} ]

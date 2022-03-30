@@ -1,0 +1,12 @@
+[ {
+  "buildOrder" : 3,
+  "reportUrl" : "https://elenakulgavaya.github.io/dependecy-merge/3/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "data" : { }
+}, {
+  "data" : {
+    "Test defects" : 1
+  }
+} ]

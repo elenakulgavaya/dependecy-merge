@@ -1,0 +1,31 @@
+[ {
+  "buildOrder" : 3,
+  "reportUrl" : "https://elenakulgavaya.github.io/dependecy-merge/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 81,
+    "unknown" : 0,
+    "total" : 81
+  }
+}, {
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 81,
+    "unknown" : 0,
+    "total" : 81
+  }
+}, {
+  "data" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 80,
+    "unknown" : 0,
+    "total" : 81
+  }
+} ]
